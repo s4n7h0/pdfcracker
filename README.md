@@ -32,17 +32,17 @@ go build -o pdf_cracker pdf_cracker.go
 
 Crack alphabetic passwords
 
-`./pdfcracker -pdf=secret.pdf -charset=a-z -min=1 -max=5`
+`./pdf_cracker -pdf=secret.pdf -charset=a-z -min=1 -max=5`
 
 Verbose mode
 
-`./pdfcracker -v -pdf=secret.pdf -charset=a-z`
+`./pdf_cracker -v -pdf=secret.pdf -charset=a-z`
 
 Crack all 4-digit numeric passwords
 
-`./pdfcracker -pdf=secret.pdf -charset=0-9 -min=4 -max=4`
+`./pdf_cracker -pdf=secret.pdf -charset=0-9 -min=4 -max=4`
 
 
 Crack DDMMYYYY date-based passwords with predictable year 2025
 
-`./pdfcracker -pdf=secret.pdf -charset=0-9 -min=4 -max=4 -suffix=2025`
+`./pdf_cracker -pdf=secret.pdf -charset=0-9 -min=4 -max=4 -suffix=2025`
