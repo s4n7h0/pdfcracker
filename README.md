@@ -21,11 +21,11 @@ Example formats:
 
 ### Build
 
-go build -o pdf_cracker pdf_cracker.go
+`go build -o pdf_cracker pdf_cracker.go`
 
 ### Run 
 
-./pdf_cracker -pdf=secret.pdf -charset=0-9 -min=4 -max=4
+`./pdf_cracker -pdf=secret.pdf -charset=0-9 -min=4 -max=4`
 
 
 ### Examples 
